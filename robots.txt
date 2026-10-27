@@ -1,0 +1,11 @@
+# robots.txt for https://mgw.builders/
+# INACTIVE until the site is live on mgw.builders. Nothing is published yet.
+#
+# Note: while in draft, the page itself carries <meta name="robots" content="noindex, nofollow">.
+# Do NOT add "Disallow: /" here to hide the draft - that would stop Google from even seeing the noindex tag.
+# At go-live: remove the noindex meta in index.html; keep this file as-is.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://mgw.builders/sitemap.xml
